@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="locationBasedApp">
+<head>
+    <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/locationStyle.css">
+    <script src="script/organise.js"></script>
+    <script src="script/optionList.js"></script>
+    <script src="script/map.js"></script>
+    <title> Never Walk Alone - Surabhya Ayal </title>
+</head>
+
+<body ng-controller="mainCtrl">
+    
+    
+    <div class="imagediv" style="background-image: url(image/nepal.jpg); height: 100%; width: 100%; border: 1px solid black;">
+    </div> 
+
+    <div class="optiondiv"> 
+        <h1 align="center" style='color:white'> Never Walk Alone </h1>
+        <option-list> </option-list>
+        <h3 align='center' style='color:red'> {{location.error}} </h3>
+        <div>
+            <map-display> </map-display>
+        </div>
+    </div>
+
+</body>
+
+</html>

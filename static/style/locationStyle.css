@@ -1,0 +1,102 @@
+.select{
+	margin-bottom:5px; 
+	border-width: 1px; 
+}
+
+.ng-invalid.ng-dirty.select{
+	border-style: solid;
+	border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty.select{
+	border-style: solid;
+	border-color: #78FA89; 
+}
+
+.super-class {
+   font-weight: bold;
+   color: purple;
+}
+
+#mapholder{
+	height: 500px;
+	width : 1300px;
+	margin: 2%; 
+}
+
+#worldmap{
+	height: 500px;
+	width : 1300px;
+}
+
+body{
+	overflow: hidden;
+} 
+
+.imagediv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#optionList{
+  float: left; 
+  width: 15%; 
+  text-align: left;
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #86b837;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c20e26), to(#86b837));
+   background: -webkit-linear-gradient(top, #c20e26, #86b837);
+   background: -moz-linear-gradient(top, #c20e26, #86b837);
+   background: -ms-linear-gradient(top, #c20e26, #86b837);
+   background: -o-linear-gradient(top, #c20e26, #86b837);
+   padding: 20px 40px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #d9d9d9;
+   font-size: 15px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+    position: absolute;
+}
+.button:hover {
+   border-top-color: #3c9c28;
+   background: #3c9c28;
+   color: #9915db;
+}
+.button:active {
+   border-top-color: #0db857;
+   background: #0db857;
+}
+
+#rescue{
+ 	left: 44%;
+    top: 90%;
+    z-index: 0;
+}
+
+#reset{
+ 	left: 45%;
+    top: 75%;
+    z-index: 1;
+}
+
+#retrack{
+ 	left: 45%;
+    top: 90%;
+    z-index: 2;
+}
+
+.infoalign{
+	padding-left: 2%; 
+}

@@ -1,0 +1,11 @@
+<div>
+	<p id="demo" ng-show='location.optionVisible'>
+		<button class="button" id='rescue' ng-click="getLocation()"> Rescue Me </button> 
+	</p>	
+	<div id="mapholder" ng-show='location.mapVisible'> 
+	</div>
+	<div class='infoalign' ng-show='location.mapVisible'>
+		<font size="4" color="white"> Distance: {{location.walkDistance}} <br> Duration: {{location.walkTime}} </font>
+	</div> 
+	<button class="button" id='retrack' ng-click="changeVisibility(true);search='';location.desiredDistance=null;location.desiredWalktime=null" ng-show='location.mapVisible'> Retrack </button> 
+</div>
